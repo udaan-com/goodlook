@@ -6,6 +6,10 @@
     height: auto !important;
 }
 
+#RibbonRoot div:has(> [title="Ribbon display options"]) {
+    display: none;
+}
+
 #MainModule [data-app-section="NavigationPane"] > div > div {
     padding: 0 !important;
 }
@@ -33,6 +37,10 @@
 }
 
 #MainModule [data-app-section="MessageList"] div:has(> button[title="From"]) {
+    display: none;
+}
+
+#MainModule [data-app-section="MessageList"] div:has(> button[title="To"]) {
     display: none;
 }
 

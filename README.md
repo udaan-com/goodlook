@@ -4,8 +4,9 @@ Makes outlook good looking
 
 * No top bar (Home, View, Help)
 * No left sidebar (Calender, People etc)
+* No ribbon options arrow
 * Mail list
-  * No mail list header (From, Subject, Received At)
+  * No mail list header (From/To, Subject, Received At)
   * Properly highlighted read mails
   * No Yesterday/This week etc headers
   * Right aligned date
