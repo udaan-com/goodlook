@@ -1,0 +1,49 @@
+#TopBar, #LeftRail {
+    display: none;
+}
+
+[data-app-section="Ribbon"] {
+    height: auto !important;
+}
+
+#MainModule [data-app-section="NavigationPane"] > div > div {
+    padding: 0 !important;
+}
+
+#folderPaneDroppableContainer > div > div i[data-icon-name] {
+    padding-left: 0 !important;
+    margin: 0 !important;
+}
+
+#folderPaneDroppableContainer > div:not([role="tree"]):nth-child(n+4) {
+    display: none;
+}
+
+#folderPaneDroppableContainer [title="Favorites"] {
+    display: none;
+}
+
+#folderPaneDroppableContainer > div:has([title="Groups"][role="treeitem"]) {
+    display: none;
+}
+
+#MainModule [data-app-section="NavigationPane"] button:has(i[data-icon-name^="Chevron"]) {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#MainModule [data-app-section="MessageList"] div:has(> button[title="From"]) {
+    display: none;
+}
+
+#MainModule [data-app-section="MessageList"] div:has(> div > button[title="Mark as unread"]) {
+    background: #e8ecf2 !important;
+}
+
+#MainModule [data-app-section="MessageList"] [id^="groupHeader"] {
+    display: none !important;
+}
+
+#MainModule [data-app-section="MessageList"] div:has(> div > button[title^="Mark as"]) div:nth-child(2) > div > :last-child * {
+    text-align: right !important;
+}
