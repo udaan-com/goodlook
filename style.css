@@ -52,7 +52,15 @@
     display: none !important;
 }
 
-#MainModule [data-app-section="MessageList"] div:has(> button[title^="Mark as"]) {
+#MainModule [data-app-section="MessageList"] div:has(> button.ms-Button[title^="Mark as"]) {
+    margin: 0 4px;
+}
+
+#MainModule [data-app-section="MessageList"] div:has(> button.ms-Button[title^="Mark as"]) > button {
+    margin: 0 2px !important;
+}
+
+#MainModule [data-app-section="MessageList"] div:has(> button[title^="Mark as"]:not(.ms-Button)) {
     display: none;
 }
 
