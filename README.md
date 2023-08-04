@@ -10,6 +10,7 @@ Makes outlook good looking
   * Properly highlighted read mails
   * No Yesterday/This week etc headers
   * Right aligned date
+  * No dark border on left of unread mail
 * Cleaner folder structure
   * No “Favorites” title
   * No extra folder list

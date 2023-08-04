@@ -52,6 +52,10 @@
     display: none !important;
 }
 
+#MainModule [data-app-section="MessageList"] div:has(> button[title^="Mark as"]) {
+    display: none;
+}
+
 #MainModule [data-app-section="MessageList"] div:has(> div > button[title^="Mark as"]) div:nth-child(2) > div > :last-child {
     max-width: unset !important;
     flex: 1;
