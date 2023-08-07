@@ -16,6 +16,12 @@ Makes outlook (Mail and Calendar) good looking
   * No “Favorites” title
   * No extra folder list
   * Adjusted padding/margin to not waste space
+* Calendar
+  * Zoomed out a bit
+
+### How it looks
+<img width="400" src="https://github.com/udaan-com/goodlook/assets/425656/9f384c39-d970-471b-9143-e56873342cec">
+<img width="400" src="https://github.com/udaan-com/goodlook/assets/425656/d3fa3081-9474-4bcc-9964-8b5eec29b854">
 
 ### To install
 
