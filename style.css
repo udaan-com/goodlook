@@ -10,8 +10,8 @@
     display: none;
 }
 
-#MainModule [data-app-section="NavigationPane"] > div > div {
-    padding: 0 !important;
+:has(> div > #MainModule) {
+    background: url("https://wallpapers.com/images/featured-full/simple-clean-background-8g9017acqfddycrl.jpg");
 }
 
 #folderPaneDroppableContainer > div > div i[data-icon-name] {
@@ -31,9 +31,31 @@
     display: none;
 }
 
+#MainModule :has(> [data-app-section="NavigationPane"]) {
+    margin: 5px;
+}
+
+#MainModule [data-app-section="NavigationPane"] {
+    margin-right: 5px;
+}
+
+#MainModule [data-app-section="NavigationPane"] > div {
+    height: auto !important;
+    flex: 0 0 auto !important;
+}
+
+#MainModule [data-app-section="NavigationPane"] > div > div {
+    padding: 0 !important;
+}
+
 #MainModule [data-app-section="NavigationPane"] button:has(i[data-icon-name^="Chevron"]) {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+#MainModule [data-app-section="MessageList"] {
+    margin: 1px !important;
+    box-shadow: none !important;
 }
 
 #MainModule [data-app-section="MessageList"] div:has(> button[title="From"]) {
