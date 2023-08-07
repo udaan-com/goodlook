@@ -1,3 +1,13 @@
+/** Common **/
+
+#app > div {
+    background: url("https://wallpapers.com/images/featured-full/simple-clean-background-8g9017acqfddycrl.jpg");
+}
+
+#app > div > div {
+    background: transparent;
+}
+
 #TopBar, #LeftRail {
     display: none;
 }
@@ -10,6 +20,10 @@
     background: transparent;
 }
 
+#mainApp > :nth-child(2) {
+    background: transparent;
+}
+
 [data-app-section="Ribbon"] {
     height: auto !important;
     margin: 0 5px;
@@ -19,13 +33,7 @@
     display: none;
 }
 
-:has(> div > div > div > div > #MainModule) {
-    background: url("https://wallpapers.com/images/featured-full/simple-clean-background-8g9017acqfddycrl.jpg");
-}
-
-:has(> div > #MainModule) {
-    background: transparent;
-}
+/** Mail specific **/
 
 #folderPaneDroppableContainer > div > div i[data-icon-name] {
     padding-left: 0 !important;
@@ -50,6 +58,10 @@
 
 #MainModule [data-app-section="NavigationPane"] {
     margin-right: 5px;
+}
+
+#MainModule [data-app-section="NavigationPane"] + div {
+    display: none;
 }
 
 #MainModule [data-app-section="NavigationPane"] > div {
@@ -107,4 +119,35 @@
 
 #MainModule [data-app-section="MessageList"] div:has(> div > button[title^="Mark as"]) div:nth-child(2) > div > :last-child * {
     text-align: right !important;
+}
+
+/** Calendar specific **/
+
+#MainModule[data-app-section="CalendarModule"] > :first-child {
+    background: transparent;
+    margin: 5px;
+}
+
+#MainModule[data-app-section="CalendarModule"] > :first-child > div > div {
+    background: transparent;
+    overflow: scroll;
+}
+
+#MainModule[data-app-section="CalendarModule"] > :first-child > div > div > div {
+    background: var(--neutralLighterAlt);
+}
+
+#MainModule[data-app-section="CalendarModule"] > :first-child > div > div > div:nth-child(2) {
+    flex-direction: column;
+    height: auto;
+    flex: 0 1 auto;
+}
+
+#MainModule[data-app-section="CalendarModule"] > :nth-child(2) {
+    display: none;
+}
+
+#MainModule[data-app-section="CalendarModule"] > :nth-child(3) {
+    margin: 5px 5px 5px 0;
+    zoom: 0.9;
 }
