@@ -1,7 +1,8 @@
 # goodlook
 
-Makes outlook good looking
+Makes outlook (Mail and Calendar) good looking
 
+* Colorful background (for contrast)
 * No top bar (Home, View, Help)
 * No left sidebar (Calender, People etc)
 * No ribbon options arrow
