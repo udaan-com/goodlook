@@ -19,4 +19,6 @@ Makes outlook (Mail and Calendar) good looking
 
 ### To install
 
-Clone and follow [these steps](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+1. Download [zip](https://github.com/udaan-com/goodlook/archive/refs/heads/main.zip)
+2. Extract
+3. Follow [Loading an unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) steps.
